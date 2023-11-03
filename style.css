@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222222;
+  background-image: linear-gradient(43deg, #222222 0%, #222222 46%, #FFCC70 100%);  
+  font-family: 'Playpen Sans', cursive;
+}
+
+#timeContainer {
+  text-align: center;
+  border: 3px solid  ;
+  border-radius: 25px;
+  background-color: #222222;
+  padding: 10px 15px;
+}
+
+#timeDisplay {
+  font-size: 4.6875rem;
+  color: #FFCC70;
+  margin: 10px;
+}
+
+button {
+  width: 7rem;
+  height: 3rem;
+  border: 3px solid #FFCC70;
+  border-radius: 12px;
+  background-color: #222222;
+  color: white;
+  cursor: pointer;
+  margin : 15px 20px;
+}
+button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+  color: #d6d6d6;
+  transition: 500ms;
+}
